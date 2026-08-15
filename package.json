@@ -1,0 +1,20 @@
+{
+  "name": "crud-node",
+  "version": "1.0.0",
+  "description": "CRUD basico em Node + Express, sem persistencia (dados em memoria)",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "crud",
+    "senai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
