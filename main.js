@@ -9,7 +9,7 @@ app.use(express.json());
 // "Banco de dados" em memoria: some quando o servidor reinicia
 let usuarios = [
   { id: 1, nome: "Ana", email: "ana@email.com" },
-//   { id: 2, nome: "Bruno", email: "bruno@email.com" },
+  { id: 2, nome: "Bruno", email: "bruno@email.com" },
 ];
 
 let proximoId = 3;
